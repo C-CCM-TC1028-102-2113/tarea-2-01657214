@@ -1,0 +1,10 @@
+num1=float(input("Dame un número: "))
+def main():
+    if num1>0:
+      print ("Es positivo")
+    if num1<0:
+      print ("Es negativo")
+    if num1==0:
+      print ("Es cero")
+if __name__ == '__main__':
+    main()
